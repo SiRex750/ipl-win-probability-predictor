@@ -104,15 +104,6 @@ Then open the local URL shown by Streamlit, usually:
 http://localhost:8501
 ```
 
-## GitHub Pages
-
-This repository also includes a static GitHub Pages site under `docs/` for project presentation.
-
-Important limitation:
-
-- GitHub Pages cannot run the Streamlit app itself because Pages only serves static files.
-- The interactive predictor still needs a Python hosting platform such as Streamlit Community Cloud, Render, or Railway.
-
 ## Input Features Used For Prediction
 
 The app constructs a single-row pandas DataFrame with these columns before sending it to the selected model pipeline:
