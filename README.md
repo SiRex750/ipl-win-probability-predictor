@@ -104,6 +104,20 @@ Then open the local URL shown by Streamlit, usually:
 http://localhost:8501
 ```
 
+## Deploy Online
+
+The easiest way to host the interactive app is Streamlit Community Cloud.
+
+Deployment steps:
+
+1. Push the repository to GitHub
+2. Open Streamlit Community Cloud
+3. Create a new app from this repository
+4. Set the main file path to `app.py`
+5. Deploy
+
+This repository includes the trained model artifacts required by the Streamlit app, so deployment does not need the raw training dataset.
+
 ## Input Features Used For Prediction
 
 The app constructs a single-row pandas DataFrame with these columns before sending it to the selected model pipeline:
@@ -158,5 +172,5 @@ Current metrics are saved in `model_metrics.json` and shown inside the Streamlit
 ## Notes
 
 - The raw source dataset is intentionally not committed to git.
-- Generated CSVs and trained model artifacts are excluded through `.gitignore`.
+- Generated training CSVs are excluded through `.gitignore`.
 - The repository contains code, setup, and documentation needed to reproduce the workflow locally.

@@ -1,0 +1,12 @@
+{
+  "logistic": {
+    "accuracy": 0.7799,
+    "roc_auc": 0.865,
+    "log_loss": 0.4777
+  },
+  "xgboost": {
+    "accuracy": 0.7954,
+    "roc_auc": 0.8736,
+    "log_loss": 0.4514
+  }
+}

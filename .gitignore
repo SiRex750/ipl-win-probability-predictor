@@ -9,9 +9,3 @@ ipl_model_ready.csv
 
 # Local raw dataset
 archive/ipl_data.csv
-
-# Trained artifacts
-pipe.pkl
-pipe_lr.pkl
-pipe_xgb.pkl
-model_metrics.json
